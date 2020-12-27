@@ -1,16 +1,25 @@
+GIT
+  remote: https://github.com/watsonbox/pocketsphinx-ruby.git
+  revision: 6c0446ddb10b3106ed7a29136cd4c0b1c49f68d6
+  ref: 6c0446d
+  specs:
+    pocketsphinx-ruby (0.3.0)
+      ffi (>= 1.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    ffi (1.9.8)
-    pocketsphinx-ruby (0.1.1)
-      ffi (>= 1.9)
-    rake (10.4.2)
-    tts (0.5.0)
+    ffi (1.14.2)
+    rake (13.0.3)
+    tts (0.8.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  pocketsphinx-ruby (~> 0.1.1)
+  pocketsphinx-ruby!
   rake
   tts
+
+BUNDLED WITH
+   2.1.4
