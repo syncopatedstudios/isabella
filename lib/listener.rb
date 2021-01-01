@@ -3,6 +3,7 @@
 require 'yaml'
 require 'pocketsphinx-ruby'
 
+
 class Listener
   ROOT_FOLDER = File.dirname(__FILE__) + '/../'
   CONFIG_FOLDER = ROOT_FOLDER + 'config/'
